@@ -1,0 +1,52 @@
+﻿-------------------------------------
+	GIT
+-------------------------------------
+
+- Utilizado para versionamento de arquivos de projeto
+
+
+
+-------------------------------------
+	Repositório GIT
+-------------------------------------
+
+1. Deixar a opção para ver arquivos ocultos
+2. Na pasta do projeto criar uma pasta chamada '.gitignore'
+
+- o Windows não permite a criação de objetos que iniciem o nome com ponto (.)
+- Entao, criar um novo documento .txt com o nome 'git'
+- Abrir o CMD (ou segurar SHIFT > botao direito >  abrir Janela do PowerShell aqui)
+- Acessar o caminho da pasta onde encontra-se o conteúdo do projeto criado pelo VS2019
+	comando: cd + caminho da pasta
+	exemplo: cd C:\Users\Felipe\Documents\Estudos\C#\ws-vs2019\C8 - Git
+
+- Renomear o documento através do comando: ren 'nome_do_arquivo' .gitignore
+- Certificar-se que o arquivo renomeado '.gitignore' não pode conter a extensão escrita em extenso ao final
+	como '.gitignore.txt', o .txt impede o correto funcionamento do '.gitignore'
+
+- Em resumo, o documento '.gitignore' lista os arquivos que não necessitam de versionamento pelo git
+
+- Consultar no google quais arquivos devem ser ignorados pelo git, como: 'gitignore visual studio 2019'
+	ou pelo link 'https://github.com/github/gitignore/blob/master/VisualStudio.gitignore'
+
+	- Copiar o conteudo do link e colar dentro do arquivo '.gitignore', e salvar alterações.
+
+- Após alterações, na pasta onde encontra-se o projeto, botao direito > gitbash here
+- Inserir o comando 'git init', esse comando inicia um repositório no diretório do projeto
+
+-------------------------------------
+	Definir usuário no GIT
+-------------------------------------
+- Iniciar o prompt gitbash here
+- Inserir o comando 'git config --global user.name "Seu Nome"
+- Inserir o comando 'git config --global user.email "Seu Email"
+
+-------------------------------------
+	Salvar projeto no GIT
+-------------------------------------
+
+- Verificar o repositório com o comando 'git status'
+- Arquivos descritos em vermelho, são os arquivos não rastreados (untracked)
+- Arquivos descritos em verde, são os arquivos prontos para o 'commit' (stage)
+
+- Colocar TODOS os arquivos modificados no 'stage', comando 'git add.'
