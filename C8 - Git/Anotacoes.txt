@@ -49,4 +49,14 @@
 - Arquivos descritos em vermelho, são os arquivos não rastreados (untracked)
 - Arquivos descritos em verde, são os arquivos prontos para o 'commit' (stage)
 
-- Colocar TODOS os arquivos modificados no 'stage', comando 'git add.'
+- Colocar TODOS os arquivos modificados no 'stage', comando 'git add {espaço}.'
+- Verificar os arquivos que foram preparados para o stage, comando 'git status'
+- Realizar o 'commit', comando 'git commit -m "Descrição do commit"'
+- Verificar se os arquivos foram para o 'commit', comando 'git log'
+
+-------------------------------------
+	Verificar os arquivos 'UNTRACKED' GIT
+-------------------------------------
+
+- Comando 'git status', os objetos em vermelho indicam que os arquivos foram modificados
+- Para adicionar as alterações (enviando-as para o stage), comando 'git add {espaço}.'
