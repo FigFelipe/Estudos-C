@@ -8,6 +8,7 @@ namespace C8___Git
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Boa tarde");
+            Console.WriteLine("Testando commit git");
         }
     }
 }
